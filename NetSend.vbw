@@ -1,0 +1,6 @@
+frmMain = 44, 58, 635, 480, , 22, 29, 613, 477, C
+NetResource = 132, 174, 756, 604, 
+NetResources = 154, 203, 778, 633, 
+clsINI = 0, 0, 0, 0, C
+modSysTray = 0, 0, 0, 0, C
+modMain = 88, 116, 580, 546, 

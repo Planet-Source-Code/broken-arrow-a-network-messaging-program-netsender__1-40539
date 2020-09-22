@@ -1,0 +1,95 @@
+[Root]
+Most Recent Package=NetSender
+
+
+[Package|NetSender|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Joy\Joy\Project\Visual Basic\Utility\NetSend\Setup
+
+[Package|NetSender|Configure DAO ISAMs]
+Applicable=No
+
+[Package|NetSender|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|NetSender|Files Found]
+
+[Package|NetSender|Files Released]
+
+[Package|NetSender|Missing Dependency Information]
+
+[Package|NetSender|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|NetSender|Files Added]
+
+[Package|NetSender|Files Removed]
+
+[Package|NetSender|Files In Project]
+E:\Joy\Joy\Project\Visual Basic\Utility\NetSend\NetSender.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|NetSender|Configure Registry Files]
+Applicable=No
+
+[Package|NetSender|Configure Remote Servers]
+Applicable=No
+
+[Package|NetSender|Install Locations]
+E:\Joy\Joy\Project\Visual Basic\Utility\NetSend\NetSender.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|NetSender|Configure Shared Files]
+Applicable=Yes
+E:\Joy\Joy\Project\Visual Basic\Utility\NetSend\NetSender.exe=No
+
+[Package|NetSender|Distribution]
+Type=single
+Size=
+Title=NetSender
+
+[Package|NetSender|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=True
+Parent0=
+
+[Package|NetSender|$(Programs)]
+Icon1=NetSender.exe
+Title1=NetSender
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|NetSender|Package]
+PackageFolder=E:\Joy\Joy\Project\Visual Basic\Utility\NetSend\Setup
+ProjectFolder=E:\Joy\Joy\Project\Visual Basic\Utility\NetSend
+ServerSideCab=
+File1=E:\Joy\Joy\Project\Visual Basic\Utility\NetSend\Setup\setup.exe
+File2=E:\Joy\Joy\Project\Visual Basic\Utility\NetSend\Setup\Setup.Lst
+File3=E:\Joy\Joy\Project\Visual Basic\Utility\NetSend\Setup\NetSender.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
